@@ -1,0 +1,30 @@
+{
+  "auth": "zef:dwarring",
+  "authors": [
+    ""
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+    "HarfBuzz:ver<0.1.3+>",
+    "HarfBuzz::Font::FreeType",
+    "PDF::Font::Loader:ver<0.8.7+>",
+    "PDF::Content",
+    "PDF::Grammar"
+  ],
+  "description": "HarfBuzz related utilites for font-shaping",
+  "license": "Artistic-2.0",
+  "name": "PDF::Font::Loader::HarfBuzz",
+  "perl": "6.d",
+  "provides": {
+    "PDF::Font::Loader::HarfBuzz": "lib/PDF/Font/Loader/HarfBuzz.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
+}
