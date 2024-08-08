@@ -12,7 +12,7 @@
     "PDF::Content",
     "PDF::Grammar"
   ],
-  "description": "HarfBuzz related utilites for font-shaping",
+  "description": "HarfBuzz integration for PDF::Font::Loader",
   "license": "Artistic-2.0",
   "name": "PDF::Font::Loader::HarfBuzz",
   "perl": "6.d",
@@ -21,7 +21,7 @@
   },
   "resources": [
   ],
-  "source-url": "",
+  "source-url": "https://github.com/pdf-raku/PDF-Font-Loader-HarfBuzz-raku.git",
   "tags": [
   ],
   "test-depends": [

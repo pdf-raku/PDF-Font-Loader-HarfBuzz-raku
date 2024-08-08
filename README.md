@@ -47,7 +47,7 @@ $pdf.add-page.text: -> $gfx {
 # ensure consistant document ID generation
 $pdf.id = $*PROGRAM-NAME.fmt('%-16.16s');
 lives-ok {
-    $pdf.save-as: "shape-example.pdf";
+    $pdf.save-as: "shaping-example.pdf";
 }
 
 ```
@@ -56,12 +56,17 @@ DESCRIPTION
 ===========
 
 PDF::Font::Loader::HarfBuzz provides glyph shaping support for the
-L<PDF-Font-Loader> tool-chain.
+[PDF-Font-Loader](https://pdf-raku.github.io/PDF-Font-Loader-raku/) module.
+
+This module is optional, but required when font-shaping or the text direction
+is right-to-left (rtl).
+
+Font shaping can help with the selection and layout of glyphs from Unicode code-points, in areas such as combining characters and ligatures.
 
 AUTHOR
 ======
 
-    <david.warring@gmail.com>
+<david.warring@gmail.com>
 
 COPYRIGHT AND LICENSE
 =====================
