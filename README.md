@@ -52,7 +52,7 @@ lives-ok {
 
 ```
 
-Description
+DESCRIPTION
 ===========
 
 PDF::Font::Loader::HarfBuzz provides glyph shaping support for the
@@ -63,12 +63,12 @@ is right-to-left (rtl).
 
 Font shaping can help with the selection and layout of glyphs from Unicode code-points, in areas such as combining characters and ligatures.
 
-Author
+AUTHOR
 ======
 
 <david.warring@gmail.com>
 
-Copyright and License
+COPYRIGHT AND LICENSE
 =====================
 
 Copyright 2024 
