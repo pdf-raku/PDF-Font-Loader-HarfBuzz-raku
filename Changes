@@ -2,5 +2,8 @@ Revision history for PDF::Font::Loader::HarfBuzz
 
 {{$NEXT}}
 
+0.0.2  2025-02-18T06:19:14+13:00
+    - Fix HarfBuzz::Font coercement
+
 0.0.1  2024-08-09T05:56:01+12:00
     - Initial version
