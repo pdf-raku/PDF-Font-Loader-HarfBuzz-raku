@@ -11,7 +11,7 @@ use HarfBuzz::Shaper;
 method make-harfbuzz-font(:$face!, :$font-buf!, Bool :$kern --> HarfBuzz::Font) {
     my HarfBuzz::Feature() @features = $kern ?? <kern> !! <-kern>;
     $face.font-format ~~ 'TrueType'|'OpenType'
-        ?? HarfBuzz::Font.COERCE: %( :blob($font-buf), :@features )
+        ?? HarfBuzz::Font.COERCE: %( :buf($font-buf), :@features )
         !! HarfBuzz::Font::FreeType.COERCE: %( :ft-face($face), :@features);
 }
 
